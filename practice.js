@@ -44,11 +44,18 @@
 // }
 
 
+// Array
+// const number= [12,22,54,65];
+// console.log(number);
 
-const number= [12,22,54,65];
-console.log(number);
+// const name= ["abul",'bulbul','babul',30,'lablu',45];
+// console.log(name[2]);
+// name[2]='habul';
+// console.log(name);
 
-const name= ["abul",'bulbul','babul',30,'lablu',45];
-console.log(name[2]);
-name[2]='habul';
-console.log(name);
+
+// length
+
+const number=[10,20,30,40,50];
+one=(number[0]);
+console.log(one);
