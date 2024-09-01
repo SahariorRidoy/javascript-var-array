@@ -71,3 +71,4 @@ console.log(firstVariable)
 var second;
 second=3;
 console.log(typeof second)
+console.log(second)
