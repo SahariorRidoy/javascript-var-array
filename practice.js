@@ -62,5 +62,12 @@
 // console.log(number);
 
 
-var x =5;
-console.log(x**2)
+// var x =5;
+// console.log(x**2)
+
+
+var firstVariable=2;
+console.log(firstVariable)
+var second;
+second=3;
+console.log(typeof second)
