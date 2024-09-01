@@ -66,9 +66,15 @@
 // console.log(x**2)
 
 
-var firstVariable=2;
-console.log(firstVariable)
-var second;
-second=3;
-console.log(typeof second)
-console.log(second)
+// var firstVariable=2;
+// console.log(firstVariable)
+// var second;
+// second=3;
+// console.log(typeof second)
+// console.log(second)
+
+let num=0;
+while(num<5){
+console.log('LOOPING',num);
+num++
+}
