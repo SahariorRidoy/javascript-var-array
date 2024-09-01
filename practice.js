@@ -56,6 +56,11 @@
 
 // length
 
-const number=[10,20,30,40,50];
-one=(number[0]);
-console.log(one);
+// const number=[10,20,30,40,50];
+// one=(number[0]);
+// number[1]=44;
+// console.log(number);
+
+
+var x =5;
+console.log(x**2)
