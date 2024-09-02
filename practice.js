@@ -214,13 +214,38 @@
 
 
 
-for(let i=55;i<=85;i++){
-    if(i % 5===0 ){
+// for(let i=55;i<=85;i++){
+//     if(i % 5===0 ){
+//         continue;
+//     }
+//     if(i%2 !==0){
+//         console.log(i);
+//     }
+    
+// }
+
+// Loop through numbers from 1 to 100
+// Initialize the first number to check
+
+
+
+// let n = 2;
+// // Loop to find all perfect squares up to 100
+// while (n * n <= 100) {
+//     // Calculate the square of the current number
+//     let square = n * n;
+
+//     // Print the perfect square
+//     console.log(square);
+
+//     // Move to the next number
+//     n++;
+// }
+const array = [1, 2, 3, 4, 5, 6, 7];
+
+for (let i = 1; i < array.length; i++) {
+    if (i == 5) {
         continue;
     }
-    if(i%2 !==0){
-        console.log(i);
-    }
-    
+    console.log(array[i]);
 }
-
