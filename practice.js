@@ -109,9 +109,42 @@
 
 // }
 
-for(i=1;i<=10;i++){
-   if( i%2===0){
-    console.log("Even Numbers",i);
-   }
+// for(i=1;i<=10;i++){
+//    if( i%2===0){
+//     console.log("Even Numbers",i);
+//    }
     
+// }
+// for(i=61;i<=100;i++){
+//    if( i%2===1){
+//     console.log("Even Numbers",i);
+//    }
+    
+// }
+// for(i=78;i<=98;i++){
+//    if( i%2===0){
+//     console.log("Even Numbers",i);
+//    }
+    
+// }
+
+// let i = 81;
+// let sum = 0;
+// while(i <= 131){
+//     if(i%2===1){
+//         sum += i;
+//         console.log("Sum Of even and previous even",i,sum)
+        
+//     }
+//     i++;
+// }
+let i = 206;
+let sum = 0;
+while(i <= 311){
+    if(i%2===1){
+        sum += i;
+        console.log("Sum Of even and previous even",i,sum)
+        
+    }
+    i++;
 }
