@@ -73,14 +73,45 @@
 // console.log(typeof second)
 // console.log(second)
 
-// let num=1;
+// let num=1;   
 // while(num<=60){
 // console.log("I Will Practice 6 hour Everyday",num);
 // num++
 // }
 
+// let num=[10,20,30];
+// for(const bum of num)
+// {
+//     console.log(bum)
+   
+// }
 
-for(i=0;i<=10;i++)
-    {
-    console.log("I am done");
+
+// for(i=0;i<=10;i++)
+//     {
+//     console.log("I am done");
+// }
+
+// let num=1;
+// let sum=0;
+// while(num<=10)
+// {
+//    sum+=num;
+//     console.log("Summation Of",bum);
+//     num++;
+// }
+// let i=1;
+// while (i<=10){
+//     if (i % 2==0){
+//         console.log("Even Numbers Are",i);
+//     }
+//     i++
+
+// }
+
+for(i=1;i<=10;i++){
+   if( i%2===0){
+    console.log("Even Numbers",i);
+   }
+    
 }
