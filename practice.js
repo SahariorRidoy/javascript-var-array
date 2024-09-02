@@ -73,8 +73,14 @@
 // console.log(typeof second)
 // console.log(second)
 
-let num=0;
-while(num<5){
-console.log('LOOPING',num);
-num++
+// let num=1;
+// while(num<=60){
+// console.log("I Will Practice 6 hour Everyday",num);
+// num++
+// }
+
+
+for(i=0;i<=10;i++)
+    {
+    console.log("I am done");
 }
