@@ -54,7 +54,7 @@
 // console.log(name);
 
 
-// length
+/* length*/
 
 // const number=[10,20,30,40,50];
 // one=(number[0]);
@@ -73,24 +73,33 @@
 // console.log(typeof second)
 // console.log(second)
 
+
+
+
 // let num=1;   
 // while(num<=60){
 // console.log("I Will Practice 6 hour Everyday",num);
 // num++
 // }
 
+
+
 // let num=[10,20,30];
 // for(const bum of num)
 // {
-//     console.log(bum)
-   
+//     console.log(bum)   
 // }
+
+
 
 
 // for(i=0;i<=10;i++)
 //     {
 //     console.log("I am done");
 // }
+
+
+
 
 // let num=1;
 // let sum=0;
@@ -100,51 +109,118 @@
 //     console.log("Summation Of",bum);
 //     num++;
 // }
+
+
+
+
 // let i=1;
 // while (i<=10){
 //     if (i % 2==0){
 //         console.log("Even Numbers Are",i);
 //     }
 //     i++
-
 // }
+
+
+
+
 
 // for(i=1;i<=10;i++){
 //    if( i%2===0){
 //     console.log("Even Numbers",i);
 //    }
-    
+  
+
+
+
 // }
 // for(i=61;i<=100;i++){
 //    if( i%2===1){
 //     console.log("Even Numbers",i);
 //    }
-    
 // }
+
+
+
+
 // for(i=78;i<=98;i++){
 //    if( i%2===0){
 //     console.log("Even Numbers",i);
-//    }
-    
+//    }   
 // }
+
+
+
 
 // let i = 81;
 // let sum = 0;
 // while(i <= 131){
 //     if(i%2===1){
 //         sum += i;
-//         console.log("Sum Of even and previous even",i,sum)
-        
+//         console.log("Sum Of even and previous even",i,sum)        
 //     }
 //     i++;
 // }
-let i = 206;
-let sum = 0;
-while(i <= 311){
-    if(i%2===1){
-        sum += i;
-        console.log("Sum Of even and previous even",i,sum)
-        
+
+
+
+
+// let i = 206;
+// let sum = 0;
+// while(i <= 311){
+//     if(i%2===1){
+//         sum += i;
+//         console.log("Sum Of even and previous even",i,sum)      
+//     }
+//     i++;
+// }
+
+
+
+
+// for (let i=21; i>=15; i--){
+//     console.log(i);
+// }
+
+
+
+
+// for(i=1;i<=200;i++){
+//     if(i>100){
+//         break;
+//     }
+//     console.log(i);
+// }
+
+
+// let sum=0;
+// for(i=1;i<=200;i++){
+//     sum+=i;
+//     if(sum>100){
+//         break;
+//     }   
+//     console.log(sum);
+// }
+
+
+
+
+// for(i=1;i<=40;i++){
+//     if(i%2===1){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+
+for(let i=55;i<=85;i++){
+    if(i % 5===0 ){
+        continue;
     }
-    i++;
+    if(i%2 !==0){
+        console.log(i);
+    }
+    
 }
+
