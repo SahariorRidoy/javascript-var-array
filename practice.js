@@ -254,6 +254,41 @@
 
 
 const array=['rakib','sakib','rokib','nokib'];
-for (const arr of array){
-    console.log(arr);
+
+
+
+
+// for (const arr of array){
+//     console.log(arr);
+// }
+
+
+
+
+// for (i=0;i<array.length;i++){
+//     console.log(array[i])
+// }
+
+
+
+
+// let i=0;
+// while (i<array.length){
+//     console.log(array[i]);
+//     i++;
+// }
+
+
+
+
+// console.log(array.reverse());]
+// const revArray=array.reverse();
+// console.log(revArray)
+
+
+const arrayRev=[];
+for (const rev of array){
+    arrayRev.unshift(rev);
+    
 }
+console.log(arrayRev);
