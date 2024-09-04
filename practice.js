@@ -241,11 +241,19 @@
 //     // Move to the next number
 //     n++;
 // }
-const array = [1, 2, 3, 4, 5, 6, 7];
 
-for (let i = 1; i < array.length; i++) {
-    if (i == 5) {
-        continue;
-    }
-    console.log(array[i]);
+
+// const array = [1, 2, 3, 4, 5, 6, 7];
+
+// for (let i = 1; i < array.length; i++) {
+//     if (i == 5) {
+//         continue;
+//     }
+//     console.log(array[i]);
+// }
+
+
+const array=['rakib','sakib','rokib','nokib'];
+for (const arr of array){
+    console.log(arr);
 }
