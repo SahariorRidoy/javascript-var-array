@@ -253,10 +253,7 @@
 // }
 
 
-const array=['rakib','sakib','rokib','nokib'];
-
-
-
+// const array=['rakib','sakib','rokib','nokib'];
 
 // for (const arr of array){
 //     console.log(arr);
@@ -286,9 +283,15 @@ const array=['rakib','sakib','rokib','nokib'];
 // console.log(revArray)
 
 
-const arrayRev=[];
-for (const rev of array){
-    arrayRev.unshift(rev);
+// const arrayRev=[];
+// for (const rev of array){
+//     arrayRev.unshift(rev);
     
+// }
+// console.log(arrayRev);
+
+
+let i;
+for(i=2;i<=10;i++){
+    console.log(i**2)
 }
-console.log(arrayRev);
